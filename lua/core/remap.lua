@@ -23,5 +23,8 @@ vim.keymap.set('v', '<C-Down>', ":m '>+1<cr>gv=gv")
 vim.keymap.set({'n', 'i'}, '<esc>', '<cmd>noh<cr><esc>')
 vim.keymap.set({'i', 'n', 'v', 's'}, '<C-s>', '<cmd>w<cr><esc>')
 
+-- move buffers
+vim.keymap.set('n', '<Tab>', '<cmd>bnext<cr>')
+vim.keymap.set('n', '<S-Tab>', '<cmd>bprevious<cr>')
 
 
